@@ -43,6 +43,8 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
      }'
    ```
 
+> **Note:** I primarily use this with `llama3.2` and `mistral` locally. If Ollama isn't pulling the model automatically, run `ollama pull llama3.2` first.
+
 ### Running with cloud providers
 
 1. Set your API keys in the environment:
