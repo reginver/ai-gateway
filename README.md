@@ -87,6 +87,13 @@ go test ./...
 go run ./cmd/ai-gateway/main.go --config config/default.yaml
 ```
 
+> **Tip:** For faster iteration during local dev, I use `air` for live reloading:
+> ```bash
+> go install github.com/air-verse/air@latest
+> air
+> ```
+> Requires an `.air.toml` config — copy from `.air.toml.example` if present.
+
 ## Architecture
 
 ```
