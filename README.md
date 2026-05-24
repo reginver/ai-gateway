@@ -107,8 +107,8 @@ The AI Gateway runs as an Envoy HTTP filter (via ext_proc or Lua) that intercept
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Bug reports and feature requests are welcome via [GitHub Issues](../../issues).
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Bug reports and feature requests are welcome via [GitHub Issues](https://github.com/envoyproxy/ai-gateway/issues).
 
-## License
+---
 
-Apache 2.0 — see [LICENSE](LICENSE) for details.
+> **Personal note:** This is my local fork for experimentation. I'm mainly exploring the cost-tracking and Ollama failover paths. Upstream changes are merged periodically — check `git log --oneline upstream/main` to see what's new.
