@@ -38,7 +38,7 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
    curl http://localhost:8080/v1/chat/completions \
      -H "Content-Type: application/json" \
      -d '{
-       "model": "llama3",
+       "model": "llama3.2",
        "messages": [{"role": "user", "content": "Hello!"}]
      }'
    ```
